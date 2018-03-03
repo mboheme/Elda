@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Configuration</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body bgcolor="#D4D0C8" Clientheight="600" Clientwidth="400" style="font-family: Microsoft Sans Serif; font-size: 8pt">
+
+<div style="text-align:center">
+
+<h1></h1>
+
+<h3>Présentation des tâches a réaliser</h3>
+<nav>
+<ul id="onglets">
+	<li><a onClick="hideAndDiplay('config')">Configuration</a></li>
+    <li><a onClick="hideAndDiplay('execute')">Exécution</a></li>
+    <li><a onClick="hideAndDiplay('affichage')">Affichage</a></li>
+</ul>
+</nav>
+<p></p>
+
+<p>Une fois que vous avec <strong>fermer cette fenétre</strong>, vous <strong>diposerez de 3 secondes</strong> pour placer le curseur de la souris à l'endroit indiqué par cette illustration ci-dessous.</p>
+
+<div id="config">
+
+	<h2 id="config">Configuration</h2>
+    
+	<p></p>
+</div>
+
+<div id="execute">
+
+	<h2 id="execute">Exécution</h2>
+    
+</div>
+
+<div id="affichage">
+
+	<h2 id="affichage">Affichage</h2>
+    
+</div>
+
+<footer>
+    <h3>Continuer l'enregistrement</h3>
+    
+    <p>Fermer cette fenêtre avec la combinaison de touche :
+    <strong>ALT + F4</strong>
+    pour sauvegarder les données.</p>
+    <p>Votre curseur de souris doit bien sur correspondre à l'endroit indiqué sur l'illustration</p>    
+    
+    <h3>Arrêter la tâche</h3>
+    <p>Si vous voulez stoper l'application, vous devez utiliser la combinaison de touche :</p>
+    <p><strong>ALT + F2</strong></p>
+</footer>
+
+<script>
+function hideAndDiplay(idDiv) {
+    var x = document.getElementById(idDiv);
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

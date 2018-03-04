@@ -1,1 +1,0 @@
-echo  > "Listing archimonstres.csv"

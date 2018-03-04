@@ -1,1 +1,1 @@
-echo 1 > "Listing archimonstres.csv"
+echo  > "Listing archimonstres.csv"
